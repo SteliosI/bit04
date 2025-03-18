@@ -1,2 +1,3 @@
-bard
-hello world
+#!bash
+echo bard
+echo hello world
