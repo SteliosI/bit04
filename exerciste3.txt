@@ -1,0 +1,7 @@
+MariaDB [vacation]> select guestname , guestaddress  from guest where guestaddress like "%London%" order by guestname ;
++--------------+--------------------+
+| guestname    | guestaddress       |
++--------------+--------------------+
+| John Kay     | 56 High St, London |
+| Mike Ritchie | 18 Tain St, London |
++--------------+--------------------+
